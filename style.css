@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+.manrope-font {
+    font-family: "Manrope", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    max-width: 1400px;
+}
+
+section {
+    margin-bottom: 120px;
+}
+
+
+/* Shared Style */
+.flex {
+    display: flex;
+}
+
+/* header */
+header{
+    margin-top: 68px;
+}
+.header-container {
+    justify-content: space-around;
+}
+
+.header-title {
+    width: 628px;
+    color: rgb(28, 28, 28);
+    font-size: 5rem;
+    font-weight: 800;
+}
+
+.header-description {
+    width: 513px;
+    padding-top: 30px;
+    color: rgb(119, 119, 119);
+    font-size: 1.13rem;
+    font-weight: 500;
+
+}
+
+.header-btn {
+    margin-top: 30px;
+    padding: 14px 17px;
+    border: none;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-align: center;
+    background: linear-gradient(270.00deg, rgb(255, 0, 0) 0%, rgb(255, 137, 56) 100%);
+}
+
+.arrow {
+    width: 15px;
+}
+
+.banner-img{
+    margin: 0 auto;
+    /* -top: 40px; */
+    width: 555px;
+    border: 1px dashed rgb(207, 198, 228);
+}
+
+/* responsive device */
+@media screen and (max-width:576px) {
+    .header-container{
+        flex-direction: column-reverse;
+    }
+    .header-title{
+        font-size: 3rem;
+        text-align: center;
+    }
+    .header-description{
+        text-align: center;
+        padding-left: 30px;
+    }
+    .header-btn{
+        margin-left: 178px;
+    }
+    
+}
