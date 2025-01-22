@@ -252,7 +252,7 @@ header {
 .super-client {
     /* height: 650px; */
     border-radius: 10px;
-    background: linear-gradient(270.00deg, rgb(255, 0, 0) 0%, rgb(255, 137, 56) 100%);
+    background: linear-gradient(270.00deg, rgb(255, 56, 5) 0%, rgb(255, 196, 0) 100%);
 }
 
 .super-client-container {
@@ -264,7 +264,7 @@ header {
 
 .super-client-title {
     padding-top: 125px;
-    color: rgb(244, 244, 244);
+    color: white;
     width: 389px;
     font-size: 2.85rem;
     font-weight: 800;
@@ -274,7 +274,7 @@ header {
 
 .super-client-description {
     padding: 20px 0 30px 0;
-    color: rgb(244, 244, 244);
+    color:#fff8f8;
     font-weight: 500;
     line-height: 28px;
     width: 440px;
@@ -318,16 +318,136 @@ header {
 }
 
 .super-div {
-    padding:  0 50px 40px;
+    padding: 0 50px 40px;
 }
 
-.client-png{
+.client-png {
     margin-top: -20px;
     margin-left: -70px;
     border-radius: 50%;
     padding: 5px;
     background-color: rgb(255, 255, 255);
 }
+
+/* News and Event */
+.news-event-title {
+    font-size: 2.85rem;
+    font-weight: 800;
+    line-height: 61px;
+    text-align: center;
+}
+
+.news-event-description {
+    color: rgb(119, 119, 119);
+    font-weight: 500;
+    width: 900px;
+    margin: 0 auto;
+    line-height: 28px;
+    padding: 20px 0 50px 0;
+    text-align: center;
+}
+
+.news-card-container {
+    max-width: 1140px;
+    margin: 0 auto;
+    justify-content: space-evenly;
+}
+
+.news-card {
+    width: 330px;
+    border: 1px solid rgb(210, 210, 210);
+    border-radius: 10px;
+
+}
+
+
+.news-1 {
+    padding: 20px 20px 20px 15px;
+}
+
+.news-1-img {
+    border-radius: 10px;
+    border: 1px dashed rgb(207, 198, 228);
+    width: 300px;
+
+}
+
+.news-card-2 {
+    padding: 0 30px 20px;
+}
+
+.date-title {
+    color: rgb(119, 119, 119);
+    font-weight: 500;
+}
+
+.news-card-title {
+    padding-top: 10px;
+    font-size: 1.25rem;
+    font-weight: 800;
+}
+
+.news-card-description {
+    color: rgb(119, 119, 119);
+    font-weight: 500;
+    padding: 10px 0 10px;
+
+}
+
+.learn-more {
+    font-weight: 700;
+    text-decoration: none;
+    color: #1C1C1C;
+}
+
+/* footer */
+footer {
+    border-radius: 10px;
+
+    background: linear-gradient(270.00deg, rgb(255, 196, 0) 0%, rgb(255, 56, 56) 100%);
+    
+}
+
+.footer-container {
+    height: 300px;
+    max-width: 1140px;
+    margin: 0 auto;
+    justify-content: space-around;
+
+}
+/* footer-right-side */
+footer
+.our-services {
+    margin-top: 69px;
+    padding-bottom: 30px;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 30px;
+    color: white;
+}
+  a, li{
+    text-decoration: none;
+    list-style: none;
+}
+.footer-list {
+    list-style: none;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.input{
+    border: none;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 17px;
+    width: 200px;
+}
+
+
+/* footer-right-side */
+
 
 
 
@@ -336,13 +456,14 @@ header {
 
     /* hide-item */
     .header-icon,
-    .bg-cup
-    {
+    .bg-cup,
+    .footer-center  {
         display: none;
     }
 
     .header-container,
-    .super-client-container{
+    .super-client-container,
+    .footer-container {
         flex-direction: column-reverse;
     }
 
@@ -462,33 +583,60 @@ header {
         margin: 0 auto;
         width: 360px;
     }
+
     /* super-client */
 
 
-    .super-div{
+    .super-div {
         width: 50%;
     }
+
     .super-client-right {
         background: rgb(255, 255, 255);
         width: 350px;
         margin-top: 30px;
     }
+
     .super-right-description {
         width: 250px;
     }
+
     .super-client-title {
         margin: 0 auto;
         padding-top: 30px;
         text-align: center;
     }
+
     .super-client-description {
         margin: 0 auto;
         text-align: center;
         padding: 20px 0 30px 0;
         width: 360px;
     }
+
     .super-client-btn {
         top: 0;
         margin-left: 125px;
     }
+
+    /* news-event-title */
+    .news-card-container {
+        flex-direction: column;
+    }
+
+    .news-card {
+        margin: 0 auto;
+    }
+
+    .news-event-description {
+        width: 360px;
+    }
+/* footer */
+.our-services{
+    text-align: center;
+}
+.d{
+    padding-left: 30px;
+    margin: 0 auto;
+}
 }
